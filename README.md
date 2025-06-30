@@ -7,9 +7,10 @@ Este projeto Python tem como objetivo consumir dados da [PokeAPI](https://pokeap
 ## 📁 Estrutura do Projeto
 
 script-pokeworld/
-├── pipeline_pokeworld.py  # Script com funções ETL para coleta e transformação dos dados
-├── main.py                # Script principal responsável por criar o banco de dados SQLite e popular as tabelas
-└── pokeworld.db           # Arquivo gerado contendo o banco de dados populado (após execução).
+|— pipeline_pokeworld.py  # Script com funções ETL para coleta e transformação dos dados
+|— main.py                # Script principal responsável por criar o banco de dados SQLite e popular as tabelas
+⌊ pokeworld.db           # Arquivo gerado contendo o banco de dados populado (após execução).
+
 
 ---
 
@@ -27,8 +28,8 @@ script-pokeworld/
 
 1. Clone o repositório:
 
-    git clone https://github.com/seuusuario/pokeworld-etl.git
-    cd pokeworld-etl
+    git clone https://github.com/GabrielRTSilva/PokeWorld
+    cd PokeWorld
 
 2. Instale as dependências:
 
